@@ -473,7 +473,7 @@ body.nature-on .nature-section {
 @media (max-width: 1200px) {
 	.hero-section .dancing{
 		font-size: 15px;
-		transform: translateY(-80px) rotate(-45deg);
+		transform: translateY(-80px) rotate(-25deg);
 	}
 }
 
