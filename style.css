@@ -1,3 +1,5 @@
+
+
 /* Please ❤ this if you like it! */
 
 
@@ -9,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 body{
-	font-family: 'Noto Sans Hong Kong', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 1.6;
@@ -94,7 +96,7 @@ a:hover {
 	display: block;
 	overflow: hidden;
 	height: 100vh;
-	background-image: url('https://images.unsplash.com/photo-1585614627110-2ab054898c00?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+	background-image: url('https://assets.codepen.io/1462889/photo.jpeg');
 	background-size: cover;
 	background-position: center;
 	transform: scale(1) rotateX(0);
@@ -107,7 +109,7 @@ a:hover {
 }
 .hero-section h1{
     color: #fff;
-	font-size: 10vw;
+	font-size: 8vw;
 	line-height: 1;
 	font-weight: 900;
 }
@@ -119,7 +121,7 @@ a:hover {
 	font-weight: 700;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	transform: translateY(-175px) rotate(-25deg);
+	transform: translateY(-175px) rotate(-45deg);
 	z-index: 2;
 }
 .hero-section .dancing span{
@@ -283,6 +285,14 @@ body.about-on .about-section {
 .contact-text:hover {
 	opacity: 1;
 }
+.contact-section img {
+    width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 6px 25px rgba(255,235,167,.35);
+}
 .contact-section {
     position: fixed;
 	top: 0;
@@ -419,7 +429,7 @@ body.nature-on .nature-section {
 .travel-section h3,
 .wildlife-section h3,
 .nature-section h3 {
-	font-size: 10vw;
+	font-size: 7vw;
 	line-height: 1;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -463,13 +473,13 @@ body.nature-on .nature-section {
 @media (max-width: 1200px) {
 	.hero-section .dancing{
 		font-size: 15px;
-		transform: translateY(-80px) rotate(-25deg);
+		transform: translateY(-80px) rotate(-45deg);
 	}
 }
 
 @media (max-width: 967px) {
 	.hero-section h1{
-		font-size: 15vw;
+		font-size: 11vw;
 	}
 	.hero-section p{
 		font-size: 18px;
