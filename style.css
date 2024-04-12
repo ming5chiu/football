@@ -121,7 +121,7 @@ a:hover {
 	font-weight: 700;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	transform: translateY(-175px) rotate(-45deg);
+	transform: translateY(-175px) rotate(-25deg);
 	z-index: 2;
 }
 .hero-section .dancing span{
