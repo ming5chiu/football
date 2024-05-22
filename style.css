@@ -856,14 +856,14 @@ a:hover {
   overflow: hidden;
 }
 .padding-top-bottom-120 {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .padding-top-120 {
-	padding-top: 120px;
+	padding-top: 50px;
 }
 .padding-bottom-120 {
-	padding-bottom: 120px;
+	padding-bottom: 50px;
 }
 .border-4 {
 	border-radius: 4px;
