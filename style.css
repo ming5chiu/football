@@ -1072,16 +1072,7 @@ body.pricing-opt-body-2 .right-off {
 	opacity: 1;
 }
 
-@media (min-width:991px) {
-  .display-in-mobile {
-    display: none;
-  }
-}
-
 @media (max-width: 991px) { 
-	 .display-in-desktop {
-    display: none;
-  }
   .left-off {
     left: 0;
     text-align: center;
