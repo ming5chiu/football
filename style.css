@@ -342,7 +342,7 @@ body.contact-on .contact-section {
 }
 @media screen and (max-width: 580px){
 	.contact-section a{
-		font-size: 17px;
+		font-size: 55px;
 	}
 	.contact-section .social a{
 		margin-left: 3px;
@@ -471,7 +471,7 @@ body.nature-on .nature-section {
 
 @media (max-width: 967px) {
 	.hero-section h1{
-		font-size: 11vw;
+		font-size: 22vw;
 	}
 	.hero-section p{
 		font-size: 18px;
