@@ -109,7 +109,7 @@ a:hover {
 }
 .hero-section h1{
     color: #fff;
-	font-size: 12vw;
+	font-size: 8vw;
 	line-height: 1;
 	font-weight: 900;
 }
@@ -133,7 +133,7 @@ a:hover {
 }
 @media screen and (max-width: 580px){
 	.hero-section .dancing{
-		font-size: 18px;
+		font-size: 28px;
 	}
 }
 .hero-section p{
