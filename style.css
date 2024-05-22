@@ -10,6 +10,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+<head>
+    <link rel="stylesheet" type="text/css" href="website url/css/style.css">
+</head>
+
 body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -1067,7 +1071,17 @@ body.pricing-opt-body-2 .right-off {
   top: -20px;
 	opacity: 1;
 }
+
+@media (min-width:991px) {
+  .display-in-mobile {
+    display: none;
+  }
+}
+
 @media (max-width: 991px) { 
+	 .display-in-desktop {
+    display: none;
+  }
   .left-off {
     left: 0;
     text-align: center;
