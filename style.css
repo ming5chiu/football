@@ -1068,7 +1068,7 @@ body.pricing-opt-body-2 .right-off {
 	opacity: 1;
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 768px) { 
   .left-off {
     left: 0;
     text-align: center;
