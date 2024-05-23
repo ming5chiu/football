@@ -501,7 +501,7 @@ body.nature-on .nature-section {
     .fixed-table-container-inner {
       overflow-x: hidden;
       overflow-y: auto;
-      max-height: 350px;
+      max-height: 400px;
     }
      
     .header-background {
