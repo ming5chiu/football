@@ -487,5 +487,51 @@ body.nature-on .nature-section {
 	}
 }
 
+/* above this is decorative, not part of the test */
+    
+    .fixed-table-container {
+      width: 100%;
+      border: 1px solid;
+      margin: 10px auto;
+      /* above is decorative or flexible */
+      position: relative; /* could be absolute or relative */
+      padding-top: 30px; /* height of header */
+    }
 
+    .fixed-table-container-inner {
+      overflow-x: hidden;
+      overflow-y: auto;
+      max-height: 200px;
+    }
+     
+    .header-background {
+      background-color: grey;
+      height: 30px; /* height of header */
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+    
+    table {
+      background-color: #102770;
+      border: 2px solid;
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .th-inner {
+      position: absolute;
+      top: 0;
+      line-height: 30px; /* height of header */
+      text-align: left;
+      border-left: 2px solid;
+      padding-left: 5px;
+      margin-left: -5px;
+    }
+    .first .th-inner {
+        border-left: none;
+        padding-left: 6px;
+      }
 
