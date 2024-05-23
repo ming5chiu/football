@@ -495,7 +495,7 @@ body.nature-on .nature-section {
       margin: 10px auto;
       /* above is decorative or flexible */
       position: relative; /* could be absolute or relative */
-      padding-top: 30px; /* height of header */
+      padding-top: 25px; /* height of header */
     }
 
     .fixed-table-container-inner {
@@ -528,7 +528,7 @@ body.nature-on .nature-section {
       text-align: left;
       border-left: 2px solid;
       padding-left: 5px;
-      margin-left: -5px;
+      margin-left: -3px;
     }
     .first .th-inner {
         border-left: none;
